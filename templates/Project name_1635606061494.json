@@ -1,4 +1,33 @@
 {
   "name": "Project name",
-  "tables": []
+  "tables": [
+    {
+      "tn": "a",
+      "columns": [],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": []
+    },
+    {
+      "tn": "b",
+      "columns": [],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": []
+    },
+    {
+      "tn": "c",
+      "columns": [],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": []
+    },
+    {
+      "tn": "d",
+      "columns": [],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": []
+    }
+  ]
 }
