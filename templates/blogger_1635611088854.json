@@ -12,18 +12,6 @@
       "hasMany": [],
       "manyToMany": [],
       "v": []
-    },
-    {
-      "tn": "comment",
-      "columns": [
-        {
-          "cn": "title1",
-          "uidt": "LongText"
-        }
-      ],
-      "hasMany": [],
-      "manyToMany": [],
-      "v": []
     }
   ]
 }
