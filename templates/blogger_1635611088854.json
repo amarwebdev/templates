@@ -1,0 +1,41 @@
+{
+  "name": "blogger",
+  "tables": [
+    {
+      "tn": "blog",
+      "columns": [
+        {
+          "cn": "title1",
+          "uidt": "SingleLineText"
+        }
+      ],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": []
+    },
+    {
+      "tn": "comment",
+      "columns": [
+        {
+          "cn": "title1",
+          "uidt": "LongText"
+        }
+      ],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": []
+    },
+    {
+      "tn": "tags",
+      "columns": [
+        {
+          "cn": "title1",
+          "uidt": "LongText"
+        }
+      ],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": []
+    }
+  ]
+}
