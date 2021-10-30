@@ -1,0 +1,82 @@
+{
+  "name": "Project name",
+  "tables": [
+    {
+      "tn": "blog",
+      "columns": [
+        {
+          "cn": "title",
+          "uidt": "SingleLineText"
+        },
+        {
+          "cn": "body",
+          "uidt": "LongText"
+        }
+      ],
+      "hasMany": [
+        {
+          "tn": "comment",
+          "_cn": "blog => comment"
+        }
+      ],
+      "manyToMany": [
+        {
+          "rtn": "tag",
+          "_cn": "blog <=> tag"
+        }
+      ],
+      "v": []
+    },
+    {
+      "tn": "comment",
+      "columns": [
+        {
+          "cn": "body",
+          "uidt": "LongText"
+        }
+      ],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": [
+        {
+          "_cn": "title2",
+          "lk": {
+            "ltn": "blog",
+            "type": "bt",
+            "lcn": "title"
+          }
+        }
+      ]
+    },
+    {
+      "tn": "tag",
+      "columns": [
+        {
+          "cn": "title",
+          "uidt": "SingleLineText"
+        }
+      ],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": [
+        {
+          "_cn": "title2",
+          "lk": {
+            "ltn": "blog",
+            "type": "mm",
+            "lcn": "title"
+          }
+        },
+        {
+          "_cn": "title3",
+          "rl": {
+            "rltn": "blog",
+            "rlcn": "body",
+            "type": "mm",
+            "fn": "avg"
+          }
+        }
+      ]
+    }
+  ]
+}
