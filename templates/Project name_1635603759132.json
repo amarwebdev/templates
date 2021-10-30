@@ -1,0 +1,40 @@
+{
+  "name": "Project name",
+  "tables": [
+    {
+      "tn": "a",
+      "columns": [
+        {
+          "cn": "title1",
+          "uidt": "SingleLineText"
+        },
+        {
+          "cn": "title2",
+          "uidt": "LongText"
+        }
+      ],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": []
+    },
+    {
+      "tn": "b",
+      "columns": [],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": []
+    },
+    {
+      "tn": "c",
+      "columns": [
+        {
+          "cn": "title1",
+          "uidt": "SingleLineText"
+        }
+      ],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": []
+    }
+  ]
+}
