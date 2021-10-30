@@ -24,18 +24,6 @@
       "hasMany": [],
       "manyToMany": [],
       "v": []
-    },
-    {
-      "tn": "tags",
-      "columns": [
-        {
-          "cn": "title1",
-          "uidt": "LongText"
-        }
-      ],
-      "hasMany": [],
-      "manyToMany": [],
-      "v": []
     }
   ]
 }
