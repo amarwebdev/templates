@@ -7,14 +7,6 @@
         {
           "cn": "title1",
           "uidt": "LongText"
-        },
-        {
-          "cn": "title2",
-          "uidt": "LongText"
-        },
-        {
-          "cn": "title3",
-          "uidt": "LongText"
         }
       ],
       "hasMany": [],
