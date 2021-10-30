@@ -3,7 +3,12 @@
   "tables": [
     {
       "tn": "a",
-      "columns": [],
+      "columns": [
+        {
+          "cn": "title1",
+          "uidt": "SingleLineText"
+        }
+      ],
       "hasMany": [],
       "manyToMany": [],
       "v": []
