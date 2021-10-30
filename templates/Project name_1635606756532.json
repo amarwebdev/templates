@@ -19,7 +19,12 @@
     },
     {
       "tn": "asa",
-      "columns": [],
+      "columns": [
+        {
+          "cn": "title1",
+          "uidt": "LongText"
+        }
+      ],
       "hasMany": [],
       "manyToMany": [],
       "v": []
