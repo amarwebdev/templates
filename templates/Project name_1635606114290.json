@@ -33,6 +33,20 @@
       "hasMany": [],
       "manyToMany": [],
       "v": []
+    },
+    {
+      "tn": "f",
+      "columns": [],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": []
+    },
+    {
+      "tn": "g",
+      "columns": [],
+      "hasMany": [],
+      "manyToMany": [],
+      "v": []
     }
   ]
 }
