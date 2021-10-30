@@ -11,6 +11,22 @@
         {
           "cn": "title2",
           "uidt": "LongText"
+        },
+        {
+          "cn": "title3",
+          "uidt": "LongText"
+        },
+        {
+          "cn": "title4",
+          "uidt": "Checkbox"
+        },
+        {
+          "cn": "title5",
+          "uidt": "Year"
+        },
+        {
+          "cn": "title6",
+          "uidt": "Checkbox"
         }
       ],
       "hasMany": [],
